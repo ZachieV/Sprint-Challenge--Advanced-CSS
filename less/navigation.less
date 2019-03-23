@@ -6,6 +6,9 @@
   height: 100px;
   display: flex;
   justify-content: center;
+  @media @mobile {
+    height: 85px;
+  }
 
   .navContent {
     justify-content: center;
@@ -25,12 +28,20 @@
       font-size: 1.4rem;
       color: @nav-font;
       justify-content: center;
+      @media @mobile {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.2rem;
+      }
     }
 
     h1 {
       margin-bottom: 20px;
       text-align: center;
       font-size: 4.0rem;
+      @media @mobile {
+        font-size: 3.6rem;
+      }
     }
   }
 }
