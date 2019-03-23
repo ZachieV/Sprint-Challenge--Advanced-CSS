@@ -1,1 +1,18 @@
 // Mixins Here
+
+.button-size(@padding-vertical: 10px; @padding-horizontal: 20px; @font-size: 1.6rem; @line-height: 10px; @border-radius: 10px;) {
+  padding: @padding-vertical @padding-horizontal;
+  font-size: @font-size;
+  line-height: @line-height;
+  border-radius: @border-radius;
+}
+
+.button-color(@fontColor: white; @bgc: black;) {
+  color: @fontColor;
+  background-color: @bgc;
+
+  &:hover {
+    color: @bgc;
+    background-color: @fontColor;
+  }
+}
