@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites would rely mainly on percentages, or media queries. Fully responsive sites use both for maximum effect.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+This depends on where you start building your site, it will change your design philosophy depending on which you choose.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It gives you a 10 base, meaning all you have to do is move your decimal point over to the left to get the equivilant of the pixel size you want.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A bit of a learning curve, but once you get it, its indespensible. Basically it looks at what you tell it and makes a beautiful looking css page.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting! I had some issues with hierarchy ocassionally and nesting completly negates it.
+My worst enemy is syntax. Luckily the terminal will tell me exactly where my problems are most times.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -58,13 +69,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
@@ -92,7 +103,7 @@ Your finished project must include all of the following requirements:
 7.home-page.less
 ```
 
-_You will know everything is working properly when you see the styles enabled for the provided content._  
+_You will know everything is working properly when you see the styles enabled for the provided content._
 
 ### Home Page - Desktop HTML & LESS
 

@@ -176,7 +176,8 @@ p {
 }
 @media only screen and (max-width: 500px) {
   .navBar {
-    height: 85px;
+    padding: 10px;
+    height: 100px;
   }
 }
 .navBar .navContent {
@@ -281,7 +282,7 @@ footer {
 }
 @media only screen and (max-width: 500px) {
   .home .walk {
-    padding: 20px;
+    padding: 25px;
     flex-direction: column;
   }
 }
@@ -315,7 +316,7 @@ footer {
 @media only screen and (max-width: 500px) {
   .home .walk .walk-text .btn button {
     width: 100%;
-    padding: 20px;
+    padding: 30px 20px;
   }
 }
 .home .walk .walk-img {
