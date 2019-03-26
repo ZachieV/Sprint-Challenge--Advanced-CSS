@@ -34,24 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-Adaptive websites would rely mainly on percentages, or media queries. Fully responsive sites use both for maximum effect.
+Adaptive websites would rely mainly on percentages, or media queries. Fully responsive sites use both for maximum effect. As far as on the user experince side I would say that fully responsive sites are easier on the eyes and more pleasant to use. Adaptive sites, have a tendency to look a little funky if viewed on certain devices.
 
 2. Describe what it means to be mobile first vs desktop first.
 
-This depends on where you start building your site, it will change your design philosophy depending on which you choose.
+This depends on where you start building your site, it will change your design philosophy depending on which you choose. The desktop first aproach starts with building your site with larger resolutions in mind. The same can be said for mobile first, but with smaller resolutions in mind. The interesting part is getting your base template, wether mobile or desktop to look good on its opposite.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-It gives you a 10 base, meaning all you have to do is move your decimal point over to the left to get the equivilant of the pixel size you want.
+It gives you a 10 base, meaning all you have to do is move your decimal point over to the left to get the equivilant of the pixel size you want. This is a really great way to add ascessability to your website without having to do a huge ammount of math. Needless to say the convinence factor on this is huge and very powerful.
 
 4. How would you describe preprocessing to someone new to CSS?
 
-A bit of a learning curve, but once you get it, its indespensible. Basically it looks at what you tell it and makes a beautiful looking css page.
+A bit of a learning curve, but once you get it, its indespensible. Your preprocessor is going to end up doing the hard work for you by creating all the specificity of the css document, allowing you to import from seperate files keeping your code files much smaller and easier to read, and giving you the ablility to create variables and mixins giving you a bunch of flexibility to your code.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-Nesting! I had some issues with hierarchy ocassionally and nesting completly negates it.
-My worst enemy is syntax. Luckily the terminal will tell me exactly where my problems are most times.
+Nesting! I had some issues with hierarchy ocassionally and nesting completly negates it. Honestly, I'm a big fan of nesting from other programing languages like python, it just helps me keep an eye on what I'm doing and helps me know where my my children are. If I don't have that I seem to get a bit of spaghetti syndrome when I'm coding.
+My worst enemy is syntax. Luckily the terminal will tell me exactly where my problems are most times. I do have to catch myself when I get caught up in trying to find the problem before looking at the terminal. It's a really bad habbit, I end up losing like 5 minutes because I forgot a curly bracket.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
